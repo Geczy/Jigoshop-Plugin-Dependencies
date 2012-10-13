@@ -131,7 +131,7 @@ class Jigoshop_Dependencies {
 	public function invalid_jigoshop_version() {
 		echo '<div class="error">
 				<h3>' . $this->title . '</h3>
-				<p>' . __( sprintf( '<a href="%s" target="_TOP">Jigoshop</a> v%s or greater is required to activate this plugin. Please update Jigoshop.', 'http://jigoshop.com', $this->required_version ), 'jigoshop' ) . '</p>
+				<p>' . sprintf( __('<a href="%s" target="_TOP">Jigoshop</a> v%s or greater is required to activate this plugin. Please update Jigoshop.', 'jigoshop'), 'http://jigoshop.com', $this->required_version ) . '</p>
 			  </div>';
 	}
 
@@ -143,7 +143,7 @@ class Jigoshop_Dependencies {
 	public function jigoshop_is_not_activated() {
 		echo '<div class="error">
 				<h3>' . $this->title . '</h3>
-				<p>' . __( sprintf( '<a href="%s" target="_TOP">Jigoshop</a> is not installed or is inactive. Please install / activate Jigoshop.', 'http://jigoshop.com' ), 'jigoshop' ) . '</p>
+				<p>' . sprintf( __('<a href="%s" target="_TOP">Jigoshop</a> is not installed or is inactive. Please install / activate Jigoshop.', 'jigoshop'), 'http://jigoshop.com' ) . '</p>
 			  </div>';
 	}
 
