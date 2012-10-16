@@ -2,7 +2,7 @@
 /**
  * Jigoshop dependencies checker.
  *
- * Version: 1.0.0
+ * Version: 1.0.1
  *
  * @category Helpers
  * @package  Jigoshop
@@ -113,7 +113,7 @@ class Jigoshop_Dependencies {
 		$plugins = get_plugins();
 		foreach ( $plugins as $folder => $data ) {
 
-			if ( !strpos( $folder, 'jigoshop.php' ) ) continue;
+			if ( !strpos( $folder, '/jigoshop.php' ) ) continue;
 
 			if ( version_compare( $data['Version'], $this->required_version, '<' ) ) {
 				$this->deactivate_main_plugin();
