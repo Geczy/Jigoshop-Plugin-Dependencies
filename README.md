@@ -6,6 +6,8 @@ A useful library for checking against the Jigoshop plugin before activating your
 Features
 ------------
 
+![](http://i.imgur.com/lrxKZ.png)
+
 ### Is Jigoshop activated
 ```php
 <?php
