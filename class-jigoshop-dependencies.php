@@ -6,7 +6,7 @@
  *
  * @category Helpers
  * @package  Jigoshop
- * @author   Matt Gates <info@mgates.me>
+ * @author   Matt Gates <info@mgates.me> and Chris Christoff <chris@futuregencode.com>
  */
 class Jigoshop_Dependencies {
 
